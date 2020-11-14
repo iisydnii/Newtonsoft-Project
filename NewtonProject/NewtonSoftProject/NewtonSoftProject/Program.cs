@@ -1,26 +1,30 @@
-﻿using System.IO;
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////////////////// //
+// Project: SystemTextJson
+// File Name: Program.cs
+// Description: Driver
+// Course: CSCI-2910-940
+// Author: Sydni Ward
+// Created: 11/14/2020
+// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+using System.IO;
 using System;
 using Newtonsoft.Json;
 
-namespace NewtonProject
+namespace NewtonSoftProject
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var bookObj = new Book();
-
             string jsonSource = Directory.GetParent                             //getting the root directory 
                 (Directory.GetCurrentDirectory()).Parent.Parent.ToString();
-            string path = $"{jsonSource}/response.json";   //getting path
-
+            string path = $"{jsonSource}/response.json";                        //Set path
 
             //Deserialize
-
-            using (StreamReader file = File.OpenText(path))
+            using (StreamReader file = File.OpenText(path))                     //Open Text using stream
             {
                 JsonSerializer serializer = new JsonSerializer();
-                Book book2 = (Book)serializer.Deserialize(file, typeof(Book));
+                Book book2 = (Book)serializer.Deserialize(file, typeof(Book));  //Deserialize
 
                 //Proof it works
 
@@ -34,12 +38,11 @@ namespace NewtonProject
                         Console.WriteLine(j);
                     }
                 }
-
             }
 
             //Serialize 
-            path = $"{jsonSource}/book.json";
-            string jsonString = File.ReadAllText($"{jsonSource}/response.json");
+            path = $"{jsonSource}/book.json";                                   //set new path
+            string jsonString = File.ReadAllText($"{jsonSource}/response.json");//Read the text with in a file
            
             // serialize JSON to a string and then write string to a file
             File.WriteAllText(path, JsonConvert.SerializeObject(jsonString));
@@ -47,16 +50,9 @@ namespace NewtonProject
             //// serialize JSON directly to a file
             using (StreamWriter file = File.CreateText(path))
             {
-                JsonSerializer serializer = new JsonSerializer();
-                serializer.Serialize(file, jsonString);
+                JsonSerializer serializer = new JsonSerializer();               //intialize JsonSerializer
+                serializer.Serialize(file, jsonString);                         //Serialize and put into file
             }
-
-            //string json = JsonSerializer.Serialize(jsonString, serializeOptions);
-
-            //Console.WriteLine(json);
-
-
-
         }
     }
 }
