@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F0EF40EE-9F0C-42D4-A770-DCAFF322D3CC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewtonSoftProject/Program.cs">
+    <Files>
+      <File FileName="NewtonSoftProject/Program.cs" Line="2" Column="14" />
+      <File FileName="NewtonSoftProject/Book.cs" Line="10" Column="6" />
+      <File FileName="NewtonSoftProject/Items.cs" Line="13" Column="6" />
+      <File FileName="NewtonSoftProject/VolumeInfo.cs" Line="11" Column="6" />
+      <File FileName="NewtonSoftProject/book.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NewtonSoftProject" expanded="True">
+            <Node name="NewtonSoftProject" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.NewtonSoftProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sydniward/Desktop/Server Side/Projects/json-postman-and-c-de-serialization-newtonsoft-json-net-iisydnii/NewtonProject/NewtonSoftProject/NewtonSoftProject/Program.cs" relfile="NewtonSoftProject/Program.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

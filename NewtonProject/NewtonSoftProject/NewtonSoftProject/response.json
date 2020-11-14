@@ -1,0 +1,73 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "c1RgQgAACAAJ",
+      "etag": "Ao7q3fDLsIM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/c1RgQgAACAAJ",
+      "volumeInfo": {
+        "title": "The Feminine Mystique",
+        "authors": [
+          "Betty Friedan"
+        ],
+        "publisher": "W. W. Norton",
+        "publishedDate": "1983",
+        "description": "Analyzes the changing role and status of women along with the implications of the evolving women's movement.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0393017753"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780393017755"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 452,
+        "printType": "BOOK",
+        "categories": [
+          "Feminism"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 21,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=c1RgQgAACAAJ&dq=isbn:9780393017755&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=c1RgQgAACAAJ&dq=isbn:9780393017755&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Feminine_Mystique.html?hl=&id=c1RgQgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=c1RgQgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Analyzes the changing role and status of women along with the implications of the evolving women&#39;s movement."
+      }
+    }
+  ]
+}

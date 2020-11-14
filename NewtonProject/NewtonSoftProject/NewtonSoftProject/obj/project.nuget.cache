@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lM/s8GVLyZwzFuELHeM7sVKsQPcLAgv+jX6p3aXsbJ9BAJi6uiA2rjuZcXFfCjVcTnHAqzgfG+PhY6DvWiw8qw==",
+  "dgSpecHash": "FPH8NFd75URxPXwK8OdMie35ULGG6bijTZDtGK56BqyHpUyJ2jJTm8NTaX9SBWLnudVpHxS8yyuU5tJ9HgQLug==",
   "success": true,
-  "projectFilePath": "/Users/sydniward/Desktop/Server Side/Projects/NewtonProject/NewtonSoftProject/NewtonSoftProject/NewtonSoftProject.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/sydniward/Desktop/Server Side/Projects/json-postman-and-c-de-serialization-newtonsoft-json-net-iisydnii/NewtonProject/NewtonSoftProject/NewtonSoftProject/NewtonSoftProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/sydniward/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
