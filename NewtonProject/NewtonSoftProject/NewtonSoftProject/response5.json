@@ -1,0 +1,105 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "8RZd_ELQf18C",
+      "etag": "QAbGgew1sLo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8RZd_ELQf18C",
+      "volumeInfo": {
+        "title": "The Crucible",
+        "authors": [
+          "Arthur Miller"
+        ],
+        "publisher": "Penguin",
+        "publishedDate": "2003-03-25",
+        "description": "A haunting examination of groupthink and mass hysteria in a rural community The place is Salem, Massachusetts, in 1692, an enclave of rigid piety huddled on the edge of a wilderness. Its inhabitants believe unquestioningly in their own sanctity. But in Arthur Miller's edgy masterpiece, that very belief will have poisonous consequences when a vengeful teenager accuses a rival of witchcraft—and then when those accusations multiply to consume the entire village. First produced in 1953, at a time when America was convulsed by a new epidemic of witch-hunting, The Crucible brilliantly explores the threshold between individual guilt and mass hysteria, personal spite and collective evil. It is a play that is not only relentlessly suspenseful and vastly moving but that compels readers to fathom their hearts and consciences in ways that only the greatest theater ever can. \"A drama of emotional power and impact\" —New York Post",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781101042465"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "110104246X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": [
+          "Drama"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "4.7.9.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8RZd_ELQf18C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8RZd_ELQf18C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=8RZd_ELQf18C&printsec=frontcover&dq=isbn:9781101042465&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8RZd_ELQf18C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8RZd_ELQf18C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=8RZd_ELQf18C&rdid=book-8RZd_ELQf18C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Crucible-sample-epub.acsm?id=8RZd_ELQf18C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8RZd_ELQf18C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "But in Arthur Miller&#39;s edgy masterpiece, that very belief will have poisonous consequences when a vengeful teenager accuses a rival of witchcraft—and then when those accusations multiply to consume the entire village."
+      }
+    }
+  ]
+}
